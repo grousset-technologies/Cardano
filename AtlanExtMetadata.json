@@ -1,8 +1,7 @@
 {
-    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/cardanians/adapools.org/master/example-meta.json",
     "info": {
-        "url_png_icon_64x64": "https://www.zupimages.net/up/21/07/mvie.png",
-        "url_png_logo": "https://tinyurl.com/ATLANTIS-GT",
+        "url_png_icon_64x64": "http://www.cardano.best/assets/img/gtech-64x64.png",
+        "url_png_logo": "http://www.cardano.best/assets/img/gtech-200x200.png",
         "location": "France",
         "social": {
             "twitter_handle": "@Grousset_Techno",
@@ -10,8 +9,8 @@
             "facebook_handle": "",
             "youtube_handle": "",
             "twitch_handle": "",
-            "discord_handle": "",
-            "github_handle": ""
+            "discord_handle": "regis#2403",
+            "github_handle": "grousset-technologies"
         },
         "company": {
             "name": "",
@@ -22,11 +21,11 @@
             "vat_id": ""
         },
         "about": {
-            "me": "mining and staking operations",
-            "server": "infrastructure is hosted on industry grade HP Blade chassis servers, running in temperature controlled room provided with reliable high-speed fiber internet connection and stable power. This enables us to provide with a 24/7 service continuity.",
+            "me": "Atlantis Cardano Staking Pool",
+            "server": "Our infrastructure is hosted on green energy efficient and highly optimized industry grade servers. It's running in temperature controlled room provided with reliable high-speed fiber internet connection and stable power. This enables us to provide with a 24/7 service continuity.",
             "company": ""
         },
-        "rss": "http(s) url to valid RSS feed"
+        "rss": ""
     },
     "my-pool-ids": {
         "0": "901365128eb65b5848262c0069e9bbe2cf702a6507c7926c0b09b98a",
@@ -42,19 +41,19 @@
     "adapools_ext": {
         "prometheus": {
             "0": {
-                "name": "relay 1 fr",
-                "type": "relay",
-                "key": "example_get_own_on_adapools.org/connect"
+                "name": "Atlantis Block Producer",
+                "type": "bp",
+                "key": "d495c4ada3401d6084f895215a04c187"
             },
             "1": {
-                "name": "relay 2 us",
+                "name": "Atlantis Relay France",
                 "type": "relay",
-                "key": "example_get_own_on_adapools.org/connect"
+                "key": "77336b42ded3916e855222be1c4da906"
             },
             "2": {
-                "name": "block producer home",
-                "type": "bp",
-                "key": "example_get_own_on_adapools.org/connect"
+                "name": "Atlantis Relay Germany",
+                "type": "relay",
+                "key": "881373ffb7414cba623ba1b2665758eb"
             }
         }
     }
